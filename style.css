@@ -1,0 +1,61 @@
+.bg-color{
+  background-color:#1F0318
+}
+
+.splash-image{
+  height: 80vh;
+  background-image: url("images/bg-image.jpg");
+  background-size: cover;
+  background-position: 50%
+}
+
+.overlay{
+  color: white;
+  background-color:rgba(0, 0, 0, .5);
+  height: 100%;
+  width: 100%;
+}
+
+.welcome-text{
+  padding-top:100px;
+  padding-left: 50px;
+  font-size: 80px;
+
+}
+
+#Problem{
+  text-align:center;
+  margin-top: 50px;
+  font-size:30px;
+}
+.problem-image{
+  width:500px;
+}
+
+#Solution{
+  margin-top: 100px;
+  margin-bottom: 100px;;
+  background-color: goldenrod;
+  color: white;
+  text-align: center;
+ 
+}
+
+@media screen and(min-width: 558px;){
+  #solution{
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px;
+  }
+}
+
+#feature-section{
+  height: 50vh;
+  font-size: 30px;
+  text-align: center;
+}
+
+.feature-image-1{
+  background-image: url("images/kratky.jpeg");
+  background-size: cover;
+}
